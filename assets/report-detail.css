@@ -1,0 +1,78 @@
+```css
+body{
+    background:#f4f7fc;
+    font-family:'Segoe UI',sans-serif;
+    padding:30px;
+    color:#1e293b;
+}
+
+.report-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.back-btn{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.report-header{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.label{
+    color:#64748b;
+    font-size:.9rem;
+}
+
+.status{
+    margin-top:20px;
+    background:#10b981;
+    color:white;
+    padding:12px 20px;
+    border-radius:12px;
+    font-weight:600;
+    display:inline-block;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    margin-top:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+.details-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.field-label{
+    color:#64748b;
+    font-size:.9rem;
+}
+
+.details-grid p{
+    font-size:1.1rem;
+    font-weight:600;
+    margin-top:5px;
+}
+
+.notes{
+    line-height:1.8;
+}
+```

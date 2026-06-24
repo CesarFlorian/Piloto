@@ -10,6 +10,7 @@ const users = [
        password:"1234",
        role:"manager"
     }
+    
 
 
 
@@ -44,6 +45,7 @@ loginForm.addEventListener("submit", function(e){
         {
            window.location.href =
               "pages/operator/dashboard.html"
+              
 
         }
 

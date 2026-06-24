@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Reporte</title>
+
+    <link rel="stylesheet" href="../../assets/createReport.css">
+</head>
+
+<body>
+
+    <div class="report-container">
+
+        <div class="header">
+
+            <a href="dashboard.html" class="back-btn">
+                ← Volver al Dashboard
+            </a>
+
+            <h1>Crear Reporte</h1>
+
+        </div>
+
+        <form class="report-form">
+
+            <div class="card">
+
+                <h2>Información General</h2>
+
+                <div class="grid-2">
+
+                    <div class="form-group">
+                        <label>Cliente</label>
+
+                        <select>
+                            <option>Hayco</option>
+                            <option>La Aurora</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Número de Trabajo</label>
+                        <input type="text">
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad Solicitada</label>
+                    <input type="number">
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad Inicial del Sheeter</label>
+                    <input type="number">
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Producción</h2>
+
+                <div class="grid-3">
+
+                    <div class="form-group">
+                        <label>Total Producido</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Waste</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Good</label>
+                        <input type="number">
+                    </div>
+
+                </div>
+
+            </div>
+
+             <div class="card">
+
+                <h2>Notas</h2>
+
+                <div class="grid-3">
+
+                    <div class="form-group">
+                        
+                        <input type="text">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <h2>Información del Operador</h2>
+
+                <div class="grid-2">
+
+                    <div class="form-group">
+                        <label>Operador</label>
+                        <input
+                            type="text"
+                            value="Operador"
+                            readonly
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input
+                            type="text"
+                            value="23/06/2026"
+                            readonly
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="save-btn" type="submit">
+                Guardar Reporte
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+```
